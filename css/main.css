@@ -1,0 +1,88 @@
+html, body {
+  background: #F2F2F2;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-transform: lowercase;
+}
+.container {
+  padding: 0;
+  width: 100%;
+}
+.header {
+  margin: 0;
+  padding: 0;
+  border-bottom: 5px solid #90C3D4;
+}
+.header img {
+  margin: 0 20px 0 0;
+  height: 80px;
+  width: 80px;
+}
+.header a {
+  color: #06485E;
+  font-size: 50px;  
+  text-decoration: none; 
+  text-transform: none;
+}
+
+.header button {
+  float: right;
+  margin: 15px 15px 0 0;
+  background-color: #06485E;
+}
+
+.header button:hover {
+  background-color: #90C3D4; 
+}
+
+.header a:hover {
+  color: #90C3D4;
+  text-decoration: none;   
+}
+.main h2 {
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  height: 80px;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  width: 80px;
+  z-index: 1;
+}
+.item {
+  cursor: pointer;
+  margin: 0;  
+  padding: 0;
+}
+.item:hover {
+  background: #06485E; 
+  text-decoration: none;
+  transition: background 500ms;
+}
+p.author {
+  color: #000;
+  padding: 24px;
+  text-align: left;
+}
+.item:hover p.author, .item:hover a {
+  color: #fff;
+  text-decoration: none;
+}
+.photo {
+  margin: 0 0 80px;   
+}
+.photo img {
+  width: 100%;
+}
+.photo h2 {
+  color: #000;
+  padding: 20px 108px; 
+}
+.photo p {
+  color: #6f6f6f;
+  margin: 0;
+  padding: 0 108px 0;  
+}
