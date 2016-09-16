@@ -11,8 +11,11 @@
       <div class="item col-md-2" ng-repeat="photo in photos | filter:getFilter()">
         <a href="#/photos/{{$index}}">
           <img class="img-responsive" ng-src="{{ photo.url }}">
+		  <p class="title">{{photo.title}}
+	      <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-heart">{{photo.likes}}</i></button> 
+          </p> 
           <p class="author">by {{ photo.author }}</p>
-        </a>
+          </a> 
       </div>
     </div>
 

@@ -62,12 +62,23 @@ html, body {
   text-decoration: none;
   transition: background 500ms;
 }
+p.title {
+  color: #000;
+  text-align: left;
+  text-transform: none;
+  padding: 4px 24px 0px 24px;
+  font-weight: bold;
+}
 p.author {
   color: #000;
-  padding: 24px;
+  padding: 0px 24px 4px 24px;
   text-align: left;
 }
 .item:hover p.author, .item:hover a {
+  color: #90C3D4;
+  text-decoration: none;
+}
+.item:hover p.title {
   color: #fff;
   text-decoration: none;
 }
@@ -91,4 +102,19 @@ p.author {
   text-transform: none;
   padding: 5px 0 5px 5px;
 
+}
+
+.btn-circle {
+  float: right;
+  min-width: 30px;
+  width: auto;
+  height: 30px;
+  text-align: center;
+  padding: 6px 6px 6px 6px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.glyphicon-heart-envelope-before {
+  margin-right: 5px;
 }
