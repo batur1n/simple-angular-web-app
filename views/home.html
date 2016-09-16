@@ -1,14 +1,14 @@
-<label class="photoSearch"> Search: <input ng-model="$ctrl.query"></label>
+<label class="photoSearch"> Search: <input ng-model="query"></label>
 
-<!-- <label class="photoSearch"> Order by: <select ng-model="$ctrl.order" >
+<label class="photoSearch"> Order by: <select ng-model="filter" >
   <option value="author">Author</option>
   <option value="title">Title</option>
-</select></label> -->
+</select></label> 
 
 <div class="main">
   <div class="container">
     <div class="row">
-      <div class="item col-md-2" ng-repeat="photo in photos | filter:$ctrl.query ">
+      <div class="item col-md-2" ng-repeat="photo in photos | filter:getFilter()">
         <a href="#/photos/{{$index}}">
           <img class="img-responsive" ng-src="{{ photo.url }}">
           <p class="author">by {{ photo.author }}</p>
