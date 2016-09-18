@@ -1,9 +1,9 @@
-<label class="photoSearch"> Search: <input ng-model="query"></label>
-
-<label class="photoSearch"> Order by: <select ng-model="filter" >
+<label class="photoSearch"> Search by: <select ng-model="filter" >
   <option value="author">Author</option>
   <option value="title">Title</option>
 </select></label> 
+
+<label class="photoSearch"><input ng-model="query"></label>
 
 <div class="main">
   <div class="container">
@@ -12,7 +12,7 @@
         <a href="#/photos/{{$index}}">
           <img class="img-responsive" ng-src="{{ photo.url }}">
 		  <p class="title">{{photo.title}}
-	      <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-heart">{{photo.likes}}</i></button> 
+	      <button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-heart">{{photo.likes}}</i></button>
           </p> 
           <p class="author">by {{ photo.author }}</p>
           </a> 

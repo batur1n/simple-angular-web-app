@@ -10,6 +10,10 @@ app.config(function ($routeProvider) {
     	controller: 'PhotoController',
     	templateUrl: 'views/photo.html'
   })
+	.when('/upload', {
+	  controller: 'UploadController',
+      templateURL: 'views/upload.html'
+	})
     .otherwise({ 
       redirectTo: '/' 
     }); 
