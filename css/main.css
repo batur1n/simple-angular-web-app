@@ -9,7 +9,13 @@ html, body {
 .container {
   padding: 0;
   width: 100%;
+
 }
+.container2 {
+  width: 97%;
+}
+
+
 .header {
   margin: 0;
   padding: 0;
@@ -57,6 +63,18 @@ html, body {
   margin: 0;  
   padding: 0;
 }
+
+.item img {
+  display: block;
+  margin: auto;
+  position: relative;
+  width: auto;
+  height: 100px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .item:hover {
   background: #06485E; 
   text-decoration: none;
