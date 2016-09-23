@@ -1,3 +1,3 @@
-Photo-gallery kind of app, work still in progress. More info later.
+Photo-gallery kind of app, tweaking around with predefined template.
 
 https://batur1n.github.io/simple-angular-web-app/
